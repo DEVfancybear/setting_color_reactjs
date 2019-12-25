@@ -4,13 +4,13 @@ class Result extends Component {
     let setStyle = {
       color: this.props.color,
       borderColor: this.props.color,
-      fontSize: this.props.fontSize
+      fontSize: this.props.sizeSet
     };
     return (
       <>
         <div className="col-xl-12 col-md-12 col-sm-12">
           <p>
-            Color: {this.props.normalColor} - Font size: {this.props.fontSizeRe}
+            Color: {this.props.normalColor} - Font size: {this.props.sizeSet}
             px
           </p>
           {/* thay đổi style khi được click */}

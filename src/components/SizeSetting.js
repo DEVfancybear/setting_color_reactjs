@@ -14,7 +14,7 @@ class SizeSetting extends Component {
       <>
         <div className="panel panel-warning">
           <div className="panel-heading">
-            <h3 className="panel-title">Font size: {this.props.fontSize}px</h3>
+            <h3 className="panel-title">Font size: {this.props.sizeSet}px</h3>
           </div>
           <div className="pane-body">
             <Button color="primary" onClick={() => this.changeSize(-2)}>

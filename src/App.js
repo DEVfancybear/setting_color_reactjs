@@ -51,7 +51,7 @@ class App extends Component {
             />
             <div className="col-xl-6 col-md-6 col-sm-6">
               <SizeSetting
-                fontSize={this.state.fontSize}
+                sizeSet={this.state.fontSize}
                 onchangeSize={this.onchangeSize}
               />
               <Reset onSettingDefault={this.onSettingDefault} />
@@ -59,7 +59,7 @@ class App extends Component {
             <Result
               normalColor={this.state.color}
               color={this.state.color}
-              fontSizeRe={this.state.fontSize}
+              sizeSet={this.state.fontSize}
             />
           </div>
         </div>
